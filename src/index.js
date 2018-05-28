@@ -2,14 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
 import { firebaseApp } from './firebase';
+
 import App from './components/App';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 
 firebaseApp.auth().onAuthStateChanged(user => {
   if(user) {
+    browserHistory.push('/app');
     console.log('user has signed in or up', user);
   } else {
+    browserHistory.replace('/signin');
     console.log('user has signed out or needs to sign in.')
   }
 })
