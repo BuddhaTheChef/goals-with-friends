@@ -18,10 +18,10 @@ firebaseApp.auth().onAuthStateChanged(user => {
     browserHistory.push('/app');
     const { email } = user;
     store.dispatch(logUser(email));
-    console.log('user has signed in or up', user);
+    // console.log('user has signed in or up', user);
   } else {
     browserHistory.replace('/signin');
-    console.log('user has signed out or needs to sign in.')
+    // console.log('user has signed out or needs to sign in.')
   }
 })
 
