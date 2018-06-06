@@ -13,8 +13,8 @@ class App extends Component {
 
   render() {
     return (
-      <div style={{ margin: '5px'}}>
-        <h3>Goals With Friends</h3>
+      <div className="goals-with-friends">
+        <h3 className="main-title">Goals With Friends</h3>
         <AddGoal />
         <hr />
         <h4>Goals</h4>
@@ -24,7 +24,7 @@ class App extends Component {
         <CompleteGoalList />
         <hr />
           <button
-            className="btn btn-danger"
+            className="btn btn-danger btn-signout"
             onClick={() => this.signOut()}
             >
             Sign Out

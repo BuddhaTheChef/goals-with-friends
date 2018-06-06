@@ -1,0 +1,22 @@
+html  {
+  background-color: rgb(60,60,60);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.goals-with-friends {
+  font-size: 20px;
+  margin: 5px;
+}
+
+
+
+.btn-signout {
+  margin-bottom: 20px;
+}
