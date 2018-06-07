@@ -11,24 +11,35 @@ class App extends Component {
     firebaseApp.auth().signOut();
   }
 
+  changeTheme() {
+
+  }
+
   render() {
     return (
       <div className="goals-with-friends">
+        <div className="top-div">
         <h3 className="main-title">Goals With Friends</h3>
+        <button
+          className="btn btn-danger btn-changetheme"
+          onClick={() => this.changeTheme()}
+          >Change Theme
+        </button>
+        </div>
         <AddGoal />
         <hr />
-        <h4>Goals</h4>
+        <h4 className="subtitle-1">Goals</h4>
         <GoalList />
         <hr />
-        <h4>Complete Goals</h4>
+        <h4 className="subtitle-2">Complete Goals</h4>
         <CompleteGoalList />
         <hr />
-          <button
-            className="btn btn-danger btn-signout"
-            onClick={() => this.signOut()}
-            >
-            Sign Out
-          </button>
+        <button
+          className="btn btn-danger btn-signout"
+          onClick={() => this.signOut()}
+          >
+          Sign Out
+        </button>
       </div>
     )
   }

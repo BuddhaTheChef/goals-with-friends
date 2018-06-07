@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { goalRef } from '../firebase';
+import '../App.css'
 
 class AddGoal extends Component {
   constructor(props) {
@@ -25,7 +26,7 @@ class AddGoal extends Component {
             type="text"
             placeholder="Add a goal"
             className="form-control"
-            style={{marginRight: '5px'}}
+            style={{marginRight: '5px', width: '500px', marginLeft: '20px'}}
             onChange={event => this.setState({title: event.target.value})}
           />
           <button

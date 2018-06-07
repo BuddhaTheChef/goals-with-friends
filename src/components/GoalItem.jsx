@@ -20,7 +20,7 @@ class GoalItem extends Component {
         <strong>{title}</strong>
         <span style={{marginRight: '5px'}}> submitted by <em>{email}</em></span>
         <button
-          className="btn btn-sm btn-primary"
+          className="btn btn-sm btn-primary btn-complete"
           onClick={() => this.completeGoal()}
           >
             Complete
