@@ -23,6 +23,7 @@ class CompleteGoalList extends Component {
     console.log('this.props.completeGoals',this.props.completeGoals)
     return (
       <div>
+        <div className="complete-goals">
         {
           this.props.completeGoals.map((completeGoal, index) => {
             const { title, email } = completeGoal;
@@ -33,6 +34,7 @@ class CompleteGoalList extends Component {
             )
           })
         }
+        </div>
         <button
           className="btn btn-primary btn-clearall"
           onClick={() => this.clearCompleted()}

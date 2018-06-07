@@ -26,11 +26,11 @@ class AddGoal extends Component {
             type="text"
             placeholder="Add a goal"
             className="form-control"
-            style={{marginRight: '5px', width: '500px', marginLeft: '20px'}}
+            style={{marginTop: '20px', marginRight: '5px', width: '500px', marginLeft: '20px', marginBottom: '20px'}}
             onChange={event => this.setState({title: event.target.value})}
           />
           <button
-            className="btn btn-success"
+            className="btn btn-primary"
             type="button"
             onClick={() => this.addGoal()}
             >

@@ -2,6 +2,12 @@ html  {
   background-color: rgb(60,60,60);
 }
 
+hr {
+    border: none;
+    background-color: rgba(60,60,60,0.3);
+    height: 1px;
+}
+
 .top-div {
   width: 100%;
   display: flex;
@@ -13,8 +19,8 @@ html  {
 .main-title {
   text-align: center;
   font-size: 50px;
-
-  margin-left: 36%;
+  font-family: 'Contrail One', cursive;
+  margin-left: 37%;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -27,8 +33,9 @@ html  {
 
 .goals-with-friends {
   font-size: 20px;
-  margin: 5px;
+  margin: 80px 0px 80px 0px;
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .addgoalinput {
@@ -37,10 +44,30 @@ html  {
 
 .subtitle-1 {
   font-size: 30px;
+  font-family: 'Contrail One', cursive;
+}
+
+.goals {
+  padding: 40px 20px 40px 20px;
+  color: whitesmoke;
+  background-color: rgb(60,60,60);
+  margin: 20px 420px 35px 420px;
+  border-radius: 20px;
+  line-height: 2em;
 }
 
 .subtitle-2 {
   font-size: 30px;
+  font-family: 'Contrail One', cursive;
+}
+
+.complete-goals {
+  padding: 40px 20px 40px 20px;
+  color: whitesmoke;
+  background-color: rgb(60,60,60);
+  margin: 20px 420px 5px 420px;
+  border-radius: 20px;
+  line-height: 2em;
 }
 
 .btn-complete {

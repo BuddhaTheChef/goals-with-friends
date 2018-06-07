@@ -22,7 +22,7 @@ class GoalList extends Component {
   render() {
     console.log('this.props.goals', this.props.goals);
     return (
-      <div>
+      <div className="goals">
         {
           this.props.goals.map((goal, index) => {
             return (
