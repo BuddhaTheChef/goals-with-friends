@@ -1,8 +1,26 @@
+
 html  {
   background-color: rgb(60,60,60);
 }
 
-hr {
+body {
+  background-color: rgb(60,60,60);
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 80px 0px 80px 0px;
+  text-align: center;
+
+}
+
+.dark-theme {
+background-color: whitesmoke;
+color: rgb(60,60,60);
+font-size: 20px;
+margin: 80px 0px 80px 0px;
+text-align: center;
+}
+
+hr{
     border: none;
     background-color: rgba(60,60,60,0.3);
     height: 1px;
@@ -31,12 +49,12 @@ hr {
   margin-top: 20px;
 }
 
-.goals-with-friends {
+/* .goals-with-friends {
   font-size: 20px;
   margin: 80px 0px 80px 0px;
   text-align: center;
   background-color: whitesmoke;
-}
+} */
 
 .addgoalinput {
   width: 50%;

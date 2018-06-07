@@ -12,7 +12,7 @@ class App extends Component {
   }
 
   changeTheme() {
-
+    document.body.classList.toggle('dark-theme')
   }
 
   render() {
