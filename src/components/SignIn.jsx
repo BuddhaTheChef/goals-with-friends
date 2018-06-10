@@ -26,24 +26,24 @@ signIn() {
   render() {
     return (
       <div className="form-inline" style={{margin: '5%'}}>
-        <h2>Sign In</h2>
-        <div className="form-group">
+        <h2 className="signin-title">Sign In to view goals!</h2>
+        <div className="main-signin">
           <input
-            className="form-control"
+            className="form-control signin-input1"
             type="text"
             placeholder="email"
             onChange={event => this.setState({email: event.target.value})}
             style={{marginRight: '5px'}}
           />
           <input
-            className="form-control"
+            className="form-control signin-input2"
             type="password"
             placeholder="password"
             onChange={event => this.setState({password: event.target.value})}
             style={{marginRight: '5px'}}
           />
           <button
-            className="btn btn-primary"
+            className="btn btn-primary btn-signin"
             type="button"
             onClick={() => this.signIn()}
             >
