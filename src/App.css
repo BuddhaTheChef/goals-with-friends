@@ -39,7 +39,7 @@ hr || .dark-theme   {
   text-align: center;
   font-size: 50px;
   font-family: 'Contrail One', cursive;
-  margin-left: 37%;
+  margin-left: 38%;
   margin-bottom: 10px;
   padding: 10px;
 }
@@ -48,6 +48,13 @@ hr || .dark-theme   {
   height: 40px;
   margin-right: 50px;
   margin-top: 20px;
+  background-color: rgb(135, 46, 214) !important;
+  border-color: rgb(135, 46, 214) !important;
+}
+
+.btn-changetheme:hover {
+  background-color: rgb(110, 35, 177) !important;
+  border-color: rgb(110, 35, 177) !important;
 }
 
 /* .goals-with-friends {
@@ -102,4 +109,11 @@ hr || .dark-theme   {
 .btn-signout {
   margin-bottom: 20px;
   margin-right: 1500px;
+  background-color: rgb(135, 46, 214) !important;
+  border-color: rgb(135, 46, 214) !important;
+}
+
+.btn-signout:hover {
+  background-color: rgb(110, 35, 177) !important;
+  border-color: rgb(110, 35, 177) !important;
 }
