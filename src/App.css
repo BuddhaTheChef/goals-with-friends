@@ -160,3 +160,46 @@ align-self: center;
 margin-top: 26px;
 font-size: 17px;
 }
+
+/* Sign up  */
+
+.main-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 34px 4px rgba(0,0,0,.4);
+}
+
+.signup-title {
+  font-family: 'Contrail One', cursive;
+  font-size: 50px;
+}
+
+
+.signup-input1 {
+margin: 11px;
+margin-top: 0px;
+border-color: rgb(110, 35, 177);
+font-size: 20px;
+}
+
+.signup-input2 {
+margin: 11px;
+border-color: rgb(110, 35, 177);
+font-size: 20px;
+}
+
+.btn-signup {
+width: 97%;
+margin-left: 7px;
+align-self: center;
+margin-top: 26px;
+font-size: 17px;
+}
